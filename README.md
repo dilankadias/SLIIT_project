@@ -1,2 +1,2 @@
-For more information, Please refer following link :
+For more information, Please refer this link :
 https://vimeo.com/254777331
