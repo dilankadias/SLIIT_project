@@ -1,0 +1,22 @@
+%YAML 1.1
+---
+actions:
+- action_greet
+- action_find
+- action_bye
+- action_injury
+- action_ask_location
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- inform:
+    use_entities: true
+- injury:
+    use_entities: true
+slots: {}
+templates: {}

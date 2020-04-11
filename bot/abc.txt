@@ -1,0 +1,19 @@
+python -m rasa_core_sdk.endpoint --actions actions 
+
+
+-----------------------------------------------------------------------
+	<div id="webchat"/>
+                    <script src="https://storage.googleapis.com/mrbot-cdn/webchat-0.4.1.js"></script>
+                    <script>
+                        WebChat.default.init({
+                            selector: "#webchat",
+                            initPayload: "/get_started",
+                            interval: 1000, // 1000 ms between each message
+                            customData: {"userId": "123"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+                            socketUrl: "http://localhost:5005",
+                            socketPath: "/socket.io/",
+                            title: "??????",
+                            subtitle: "",
+                            profileAvatar: "http://www.realityhackertoolkit.com/wp-content/uploads/2017/04/Avatar.png",
+                        })
+                    </script>

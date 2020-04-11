@@ -1,0 +1,1113 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "ආයුබෝවන්",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Back-pain",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "මට කැස්ස",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "කැස්ස",
+            "entity": "disease"
+          },
+          {
+            "start": 3,
+            "end": 8,
+            "value": "කැස්ස",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "උණ",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "උණ",
+            "entity": "disease"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "උණ",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "වලිප්පුව",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "වලිප්පුව",
+            "entity": "disease"
+          }
+        ]
+      },
+      {
+        "text": "මට මාලබේ ප්‍රදේශයෙන් වෙද මහතකු සොයා ගැනීමට අවශ්‍යයි",
+        "intent": "location",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "මාලබේ",
+            "entity": "search_location"
+          }
+        ]
+      },
+      {
+        "text": "කොන්දෙ අමාරුව සඳහා කෑගල්ල ප්‍රදේශයෙන් වෙද මහතකු සොයාදෙන්න",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "කොන්දෙ අමාරුව",
+            "entity": "disease"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "කෑගල්ල",
+            "entity": "search_location"
+          }
+        ]
+      },
+      {
+        "text": "මට ඇති රෝග ලක්ෂණ වන්නේ හිසරදය හා ක්ලාන්ත යයි",
+        "intent": "inury",
+        "entities": [
+          {
+            "start": 33,
+            "end": 40,
+            "value": "ක්ලාන්ත",
+            "entity": "symptom"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "හිසරදය",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "මට වමනය යනවා",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "වමනය",
+            "entity": "symptom"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "වමනය",
+            "entity": "disease"
+          }
+        ]
+      },
+      {
+        "text": "අතුකෝරළ",
+        "intent": "person",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "අතුකෝරළ",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "අනුත්තර",
+        "intent": "person",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "අනුත්තර",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "අනුල",
+        "intent": "person",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "අනුල",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "අනුහර",
+        "intent": "person",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "අනුහර",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": " අකුරන",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අඟුළුගල්ල",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අතුරුගිරිය",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අම්පාර",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "බඩ වියළීම",
+        "intent": "symptom",
+        "entities": []
+      },
+      {
+        "text": "බඩ කොරවීම",
+        "intent": "symptom",
+        "entities": []
+      },
+      {
+        "text": "උලුක්කුව",
+        "intent": "symptom",
+        "entities": []
+      },
+      {
+        "text": "හදවත් කැක්කුම",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "හදවත් කැක්කුම",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "පිළිකා ",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "හෘද රෝගය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ඔස්ටියෝ ආතරයිටිස්",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ඩෙංගු",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "චිකුන් ගුන්‍යා",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "දියවැඩියාව",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ඉස්හොරි",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "මයෝකාඩයටීස්",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ඒඩ්ස් ",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ගලපටල රෝගය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": " උදරයේ ආසාදන",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ආසාදන",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "පියයුරු වේදනාව",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "පියයුරු පිළිකාව",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "මුත‍්‍රා ආසාදනය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "කරකැවිල්ල",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "කරකැවිල්ල",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "වෙනස",
+        "intent": "symptom",
+        "entities": []
+      },
+      {
+        "text": "වැඩි මේදය",
+        "intent": "symptom",
+        "entities": []
+      },
+      {
+        "text": "මොළයේ ගෙඩි",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ඇස්වල වපරය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "මළ බද්ධය",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "මළ බද්ධය",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "අඩු බර උපත්",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "මන්ද පෝෂණය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ආතති",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ඇටය බිඳීම",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "අස්ථි බිඳීම",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "නිතර මුත‍්‍රා පිටවීම",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "නිතර මුත‍්‍රා පිටවීම",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "අපස්මාරය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ලෙඩවීම",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ලේ ගැලීම",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "ලේ ගැලීම",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "මද සරු බව",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ගර්භාෂයේ අසමානතා",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ඔසප් වේදනාව",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "ඔසප් වේදනාව",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "මුත‍්‍රා අසංයමය",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "මුත‍්‍රා අසංයමය",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "ඉදිමිම",
+        "intent": "symptom",
+        "entities": []
+      },
+      {
+        "text": "වමනය යාම",
+        "intent": "symptom",
+        "entities": []
+      },
+      {
+        "text": "වකුගඩුවල ගල්",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "තැලසීමියාව",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "හිස කැක්කුම",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "හිස කැක්කුම",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "හිරිවැටීම",
+        "intent": "symptom",
+        "entities": []
+      },
+      {
+        "text": "ලේ අතීසාරය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "අක්කාරම් රෝගය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "වකුගඩු රෝග",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "මුත‍්‍රාශයේ ආසාදන",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "මුත‍්‍රාශයේ ආසාදන",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "කොන්දේ අමාරුව",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "බරවා",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "අධි රුධිර පීඩනය",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "අධි රුධිර පීඩනය",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "අපස්මාරය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "උණ වලිප්පුව",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "උදරයේ ආසාදන",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "උදරයේ ආසාදන",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "තැල්මක්",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "තැල්මක්",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "කක්කල් කැස්ස",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "කක්කල් කැස්ස",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "වසූරිය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ආමාශ අම්ල",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "උගුරේ යමක් හිර වීම",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "බඩ වියළීම",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "බඩ වියළීම",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "ඇස් රුදාව",
+        "intent": "symptom",
+        "entities": []
+      },
+      {
+        "text": "රක්තහීනතාවය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "පීනස",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ලාදුරු",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "බඩ කොරවීම",
+        "intent": "symptom",
+        "entities": []
+      },
+      {
+        "text": "ශ්‍රෝණි අස්ථි බිඳීම",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "අංශබාගය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "විදුරුමස් දියවිම",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "විදුරුමස් දියවිම",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "සාම් කබර",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "නිරක්තිය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "මන්ද බුද්ධික භාවය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ඩෙංග",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ඇදුම රෝගය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "වායුගෙඩි",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "දියවැඩියාව",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "පපුවේ අමාරුව",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ගුද පිළිකාවෙන්",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "අසාත්මිකතා",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "අසාත්මිකතා",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "පපුවේ වේදනාව",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "පපුවේ වේදනාව",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "ඉරුවාරදයට",
+        "intent": "symptom",
+        "entities": []
+      },
+      {
+        "text": "පැපොල රෝගය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "පිටගැස්ම",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ඩෙංගු රෝගය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "සරම්ප",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ක්ෂය රෝගය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "මහාමාරිය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "මැලේරියාව",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "හදවත් සිදුරු",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ඉක්කාව",
+        "intent": "symptom",
+        "entities": []
+      },
+      {
+        "text": "මලබද්ධය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ක්ෂය රෝගය ",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "පිත්තාශයේ ගල් ",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "රුධිර පාරවිලයනය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "රිදුම",
+        "intent": "symptom",
+        "entities": []
+      },
+      {
+        "text": "අධික රුධිර පීඩනය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ක්ෂය රෝගය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ඇදුම රෝගය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "තරබාරුව",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "මානසික රෝගී",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "අසාත්මිකතාවය",
+        "intent": "symptom",
+        "entities": []
+      },
+      {
+        "text": "බරවා රෝගය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "එච්.අයි.වී",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "කොළරා",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "චාලක නියුරෝන රෝගය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ප්‍රවේණිගත රෝග‎",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ව්‍යාධිජනක බැක්ටීරියා",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "වෛරස් රෝග",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "සමේ රෝග‎",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ඇල්ෂයිමර්ගේ රෝගය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ඇස්කේරියාසිස්",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "උණ්ඩුකපුච්ඡ ප්‍රදාහය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ඇපෙන්ඩිසයිටීස්",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ක්‍ෂය රෝගය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "කුරුළු උණ",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "කොලරාව",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "කෝඨරක ප්‍රදාහය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ගලගණ්ඩය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ටයිපොයිඩ් උණ",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "නියුමෝනියාව",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "නිශාගත ආමුත්‍රලය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "පාචනය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "පිළිකා",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "සයිකෝසියාව",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "සරම්ප",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "සූකර උණ",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "සෙංගමාලය",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "හිමෝෆීලියා",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "සෙම්ප්‍රතිශ්‍යාව",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "සෙම්ප්‍රතිශ්‍යාව",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "කැස්ස",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "කැස්ස",
+            "entity": "symptom"
+          }
+        ]
+      },
+      {
+        "text": "කුරුළෑ",
+        "intent": "symptom",
+        "entities": []
+      },
+      {
+        "text": "කණ් කැක්කුම",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "කණ පැසවීම",
+        "intent": "injury",
+        "entities": []
+      },
+      {
+        "text": "ඉස්හොරි",
+        "intent": "inury",
+        "entities": []
+      },
+      {
+        "text": "උකුණන්",
+        "intent": "symptom",
+        "entities": []
+      },
+      {
+        "text": " අංගම්පිටිය",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අංගම්මන",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අක්මීමන",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අගලෙගෙදර",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අඟුණකොලපැලැස්ස",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අටුලුගම",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අතරගල්ල",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අත්තනගල්ල",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අතුරුවල",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අන්දරවැව",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අමන්දොළුව",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අම්බලන්ගොඩ",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අමාන්තන්වේලි",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අමුවත්දෙනිය",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අඹගහතැන්න",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අඹනැල්ල",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අයින්ගම",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අරම",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අරුක්ගොඩ",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "අල්ගොඩ",
+        "intent": "location",
+        "entities": []
+      },
+      {
+        "text": "ඩෙංගු",
+        "intent": "injury",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "ඩෙංගු",
+            "entity": "injury"
+          }
+        ]
+      }
+    ]
+  }
+}

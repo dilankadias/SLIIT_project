@@ -1,0 +1,13 @@
+intents:
+ - greet
+ - goodbye
+ - inform
+ - injury
+
+actions:
+ - action_greet
+ - action_find
+ - action_bye
+ - action_injury
+ - action_ask_location
+
